@@ -12,7 +12,7 @@ public class Schoolsystem {
 	  currentStudent[1]=maxStudent[1]-medium;
 	  currentStudent[2]=maxStudent[2]-small;
 	 }
-	 public Boolean addStudent(int stuType) {
+	 public Boolean addStudent(int stuType) { //Ìí¼ÓÑ§Éú
 	  for(int i=1;i<=3;i++) {
 	   if(stuType==i) {
 	   if(maxStudent[i-1]>currentStudent[i-1]) {
