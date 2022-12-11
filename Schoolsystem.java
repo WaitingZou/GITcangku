@@ -37,8 +37,8 @@ public class Schoolsystem {
 	    }
 	 public static void main(String[] args) {
 	   String a;
-	   System.out.println("分别按顺序加入空格间开输入三个班级的剩余量和多少同学要加入的班级");
-	      a=scan.nextLine();
+	   System.out.println("按顺序使用空格，间开输入每个班的剩余量和同学要加入或者退出的班级");
+	      a=scan.nextLine();                                     //第三次修改
 	      ArrayList<Integer> params=Schoolsystem.parse(a);
 	      System.out.print("输出结果为：");
 	  Schoolsystem sc=new Schoolsystem(params.get(0),params.get(1),params.get(2));
